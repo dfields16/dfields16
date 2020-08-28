@@ -1,4 +1,4 @@
-### Howdy! I'm Dawson
+### 👋 Howdy! I'm Dawson
 
 <img align="left" align="left" alt="codeSTACKr's Github Stats" src="https://github-readme-stats.vercel.app/api?username=dfields16&show_icons=true&hide_border=true&count_private=true&show_icons=true&hide=stars,contribs&hide_rank=true&include_all_commits=true" />
 
