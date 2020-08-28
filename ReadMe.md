@@ -4,6 +4,8 @@
 
 ![Top Langs](https://github-readme-stats.dfields16.vercel.app/api/top-langs/?username=dfields16&hide=gherkin,html,css&hide_border=true&count_private=true&include_all_commits=true)
 
+### 🎧 Spotify Playing
+[![Spotify](https://novatorem.dfields16.vercel.app/api/spotify)](https://open.spotify.com/user/oein30gr66zv9m9zpbus34pxe)
 
 ### ⚡️ Languages and Technologies
 <img align="left" height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png" />
