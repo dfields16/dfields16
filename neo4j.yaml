@@ -3,18 +3,27 @@ version: "3.3"
 services:
   neo:
     image: neo4j:latest
-    ports:
-      - 7474:7474
-      - 7687:7687
+    # ports:
+    #   - 7474:7474
+    #   - 7687:7687
     volumes:
       - neo4j_data:/data/
     env_file:
       - .env.neo4j
+    networks:
+      - db_net
+  
   bible-reference-api:
     image: dfields2016/bible-reference-explorer-api:master
     depends_on:
       - neo
     ports:
       - 80:8080
+    networks:
+      - db_net
+
 volumes:
   neo4j_data:
+
+networks:
+  db_net:
