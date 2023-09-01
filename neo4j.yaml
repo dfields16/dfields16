@@ -13,17 +13,28 @@ services:
     networks:
       db_net:
         ipv4_address: 172.16.238.2
-        ipv6_address: 2001:3984:3989::11
+        ipv6_address: 2001:3984:3989::10
   bible-reference-api:
     image: dfields2016/bible-reference-explorer-api:master
     depends_on:
       - neo
     ports:
-      - 80:8080
+      - 8080:8080
     networks:
       db_net:
         ipv4_address: 172.16.238.3
-        ipv6_address: 2001:3984:3989::10
+        ipv6_address: 2001:3984:3989::11
+  bible-reference-ui:
+    image: dfields2016/bible-reference-explorer-ui:master
+    depends_on:
+      - neo
+      - bible-reference-api
+    ports:
+      - 80:8080
+    networks:
+      db_net:
+        ipv4_address: 172.16.238.4
+        ipv6_address: 2001:3984:3989::12
 volumes:
   neo4j_data:
 
