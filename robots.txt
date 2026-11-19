@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dawsonfields.com/sitemap.xml

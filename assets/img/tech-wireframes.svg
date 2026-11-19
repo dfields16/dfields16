@@ -1,0 +1,211 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="position:absolute" aria-hidden="true">
+  <!--
+    Custom wireframe icons for the tech chips on project pages.
+    One style for all: 32x32 grid, line only, drawn with currentColor.
+    Stroke width, caps and joins come from CSS (.tech-icon), so every icon stays uniform.
+    Use: <svg class="tech-icon" viewBox="0 0 32 32"><use href="/assets/img/tech-wireframes.svg#unity"/></svg>
+    "Node" shapes use the page background so lines look like they stop at the shape.
+  -->
+
+  <!-- Unity3D: wireframe cube -->
+  <symbol id="unity" viewBox="0 0 32 32">
+    <path d="M16 3 27.3 9.5v13L16 29 4.7 22.5v-13z"/>
+    <path d="M16 16 4.7 9.5M16 16l11.3-6.5M16 16v13"/>
+  </symbol>
+
+  <!-- C#: hexagon, a C and a # -->
+  <symbol id="csharp" viewBox="0 0 32 32">
+    <path d="M16 3 27.3 9.5v13L16 29 4.7 22.5v-13z"/>
+    <path d="M17.6 12.7A5 5 0 1 0 17.6 19.3"/>
+    <path d="M20.6 12.8v6.4M23.4 12.8v6.4M19.4 14.5h5.2M19.4 17.5h5.2"/>
+  </symbol>
+
+  <!-- React: three orbits and a nucleus -->
+  <symbol id="react" viewBox="0 0 32 32">
+    <ellipse cx="16" cy="16" rx="12.5" ry="4.8"/>
+    <ellipse cx="16" cy="16" rx="12.5" ry="4.8" transform="rotate(60 16 16)"/>
+    <ellipse cx="16" cy="16" rx="12.5" ry="4.8" transform="rotate(120 16 16)"/>
+    <circle cx="16" cy="16" r="1.7" style="fill:currentColor"/>
+  </symbol>
+
+  <!-- WebGL: a triangle mesh -->
+  <symbol id="webgl" viewBox="0 0 32 32">
+    <path d="M16 4 28 26H4z"/>
+    <path d="M10 15h12l-6 11z"/>
+    <path d="M16 4 10 15M16 4l6 11M4 26l6-11M28 26l-6-11"/>
+    <circle cx="16" cy="4" r="1.3" style="fill:currentColor"/>
+    <circle cx="28" cy="26" r="1.3" style="fill:currentColor"/>
+    <circle cx="4" cy="26" r="1.3" style="fill:currentColor"/>
+  </symbol>
+
+  <!-- Cosmograph: a graph of nodes and edges -->
+  <symbol id="cosmograph" viewBox="0 0 32 32">
+    <path d="M7 8 16 16M24 7l-8 9M26 20l-10-4M11 25l5-9M7 8l4 17M24 7l2 13"/>
+    <circle cx="7" cy="8" r="2.6" style="fill:var(--bg,#fff)"/>
+    <circle cx="24" cy="7" r="2.6" style="fill:var(--bg,#fff)"/>
+    <circle cx="26" cy="20" r="2.6" style="fill:var(--bg,#fff)"/>
+    <circle cx="11" cy="25" r="2.6" style="fill:var(--bg,#fff)"/>
+    <circle cx="16" cy="16" r="3.2" style="fill:var(--bg,#fff)"/>
+  </symbol>
+
+  <!-- Material UI: layered surfaces -->
+  <symbol id="mui" viewBox="0 0 32 32">
+    <rect x="4.5" y="4.5" width="17" height="17" rx="3.5"/>
+    <rect x="10.5" y="10.5" width="17" height="17" rx="3.5" style="fill:var(--bg,#fff)"/>
+    <path d="M15 18h8M15 22h5"/>
+  </symbol>
+
+  <!-- LabVIEW: a block diagram joined by wires -->
+  <symbol id="labview" viewBox="0 0 32 32">
+    <rect x="3.5" y="5.5" width="10" height="8" rx="1.8"/>
+    <rect x="18.5" y="18.5" width="10" height="8" rx="1.8"/>
+    <path d="M13.5 9.5H16V22.5h2.5"/>
+    <circle cx="16" cy="16" r="1.6" style="fill:currentColor"/>
+    <path d="M16 9.5V5.5h6.5M22.5 5.5v3"/>
+  </symbol>
+
+  <!-- TCP sockets: two endpoints and traffic both ways -->
+  <symbol id="tcp" viewBox="0 0 32 32">
+    <rect x="2.5" y="8.5" width="8" height="15" rx="2.2"/>
+    <rect x="21.5" y="8.5" width="8" height="15" rx="2.2"/>
+    <path d="M6.5 13.2v.1M6.5 18.7v.1M25.5 13.2v.1M25.5 18.7v.1"/>
+    <path d="M13 13h6.5M17.2 10.4 19.8 13l-2.6 2.6"/>
+    <path d="M19 19h-6.5M14.8 16.4 12.2 19l2.6 2.6"/>
+  </symbol>
+
+  <!-- ===== Languages and tools (home page) ===== -->
+
+  <!-- Java: a cup of coffee -->
+  <symbol id="java" viewBox="0 0 32 32">
+    <path d="M7 14h14v5a6 6 0 0 1-6 6h-2a6 6 0 0 1-6-6z"/>
+    <path d="M21 15.5h1.6a3 3 0 0 1 0 6H21M6 28.5h16"/>
+    <path d="M11 4.5c-1.4 2 1.4 3 0 5.5M16 4.5c-1.4 2 1.4 3 0 5.5"/>
+  </symbol>
+
+  <!-- C++: hexagon, a C and two plus signs -->
+  <symbol id="cplusplus" viewBox="0 0 32 32">
+    <path d="M16 3 27.3 9.5v13L16 29 4.7 22.5v-13z"/>
+    <path d="M16.6 12.9A4.7 4.7 0 1 0 16.6 19.1"/>
+    <path d="M18.6 16h3.4M20.3 14.3v3.4M23 16h3.4M24.7 14.3v3.4"/>
+  </symbol>
+
+  <!-- Python: two interlocking blocks -->
+  <symbol id="python" viewBox="0 0 32 32">
+    <path d="M16 16H9.5A2.5 2.5 0 0 1 7 13.5V9a4 4 0 0 1 4-4h5a4 4 0 0 1 4 4v3.5a3.5 3.5 0 0 1-3.5 3.5z"/>
+    <circle cx="11.5" cy="8.6" r="1" style="fill:currentColor"/>
+    <path d="M16 16H9.5A2.5 2.5 0 0 1 7 13.5V9a4 4 0 0 1 4-4h5a4 4 0 0 1 4 4v3.5a3.5 3.5 0 0 1-3.5 3.5z" transform="rotate(180 16 16)"/>
+    <circle cx="11.5" cy="8.6" r="1" style="fill:currentColor" transform="rotate(180 16 16)"/>
+  </symbol>
+
+  <!-- JavaScript: a square with J and S -->
+  <symbol id="javascript" viewBox="0 0 32 32">
+    <rect x="3.5" y="3.5" width="25" height="25" rx="3.5"/>
+    <path d="M15 11v8a3 3 0 0 1-3 3h-.8"/>
+    <path d="M20.6 19.8c.5 1 1.4 1.5 2.6 1.5 1.5 0 2.4-.8 2.4-2 0-3-5-1.6-5-4.5 0-1.2 1-2 2.4-2 1.1 0 1.9.5 2.4 1.4"/>
+  </symbol>
+
+  <!-- Scala: three stacked bars -->
+  <symbol id="scala" viewBox="0 0 32 32">
+    <path d="M7 5.5l18 4v3.5L7 9z"/>
+    <path d="M7 12.5l18 4v3.5L7 16z"/>
+    <path d="M7 19.5l18 4v3.5L7 23z"/>
+  </symbol>
+
+  <!-- Swift: a swift in flight -->
+  <symbol id="swift" viewBox="0 0 32 32">
+    <path d="M3 11c6-1 10 2.500 13 9 3-6.500 7-10 13-9-5 2-9 6-11.500 12L16 28l-1.500-4C12 17 8 13 3 11z"/>
+  </symbol>
+
+  <!-- Gremlin: a traversal path through a graph -->
+  <symbol id="gremlin" viewBox="0 0 32 32">
+    <path d="M5.500 23.500 13 9.500 21 21.500 27.500 8.500"/>
+    <circle cx="5.500" cy="23.500" r="2.600" style="fill:var(--bg,#fff)"/>
+    <circle cx="13" cy="9.500" r="2.600" style="fill:var(--bg,#fff)"/>
+    <circle cx="21" cy="21.500" r="2.600" style="fill:var(--bg,#fff)"/>
+    <circle cx="27.500" cy="8.500" r="2.600" style="fill:var(--bg,#fff)"/>
+  </symbol>
+
+  <!-- Docker: containers on a whale -->
+  <symbol id="docker" viewBox="0 0 32 32">
+    <rect x="5" y="12.500" width="4.500" height="4.500"/>
+    <rect x="10.500" y="12.500" width="4.500" height="4.500"/>
+    <rect x="16" y="12.500" width="4.500" height="4.500"/>
+    <rect x="10.500" y="7" width="4.500" height="4.500"/>
+    <rect x="16" y="7" width="4.500" height="4.500"/>
+    <path d="M3 18.500h22.500c1.600 0 2.600-1 3-2.500-1-.2-1.800-.8-2.200-1.800M3.200 18.500c.7 5 5 8.500 11.800 8.500 6.800 0 11-3.200 12.300-8.500"/>
+  </symbol>
+
+  <!-- Git: a branch -->
+  <symbol id="git" viewBox="0 0 32 32">
+    <path d="M9 7v18M9 21c0-6 14-3 14-9"/>
+    <circle cx="9" cy="6.500" r="2.800" style="fill:var(--bg,#fff)"/>
+    <circle cx="9" cy="25.500" r="2.800" style="fill:var(--bg,#fff)"/>
+    <circle cx="23" cy="10" r="2.800" style="fill:var(--bg,#fff)"/>
+  </symbol>
+
+  <!-- Kafka: one source fanning out to streams -->
+  <symbol id="kafka" viewBox="0 0 32 32">
+    <path d="M9.500 16 22 7M9.500 16H22M9.500 16 22 25M22 7v18"/>
+    <circle cx="7.500" cy="16" r="3.500" style="fill:var(--bg,#fff)"/>
+    <circle cx="23" cy="7" r="2.600" style="fill:var(--bg,#fff)"/>
+    <circle cx="23" cy="16" r="2.600" style="fill:var(--bg,#fff)"/>
+    <circle cx="23" cy="25" r="2.600" style="fill:var(--bg,#fff)"/>
+  </symbol>
+
+  <!-- Terraform: stacked blocks -->
+  <symbol id="terraform" viewBox="0 0 32 32">
+    <path d="M5 6l8 4.500v10L5 16z"/>
+    <path d="M15 12.500l8 4.500v9l-8-4.500z"/>
+    <path d="M15 3.500l7 4v4.500l-7-4z"/>
+  </symbol>
+
+  <!-- GraphQL: hexagon with a triangle of linked nodes -->
+  <symbol id="graphql" viewBox="0 0 32 32">
+    <path d="M16 3 27.300 9.500v13L16 29 4.700 22.500v-13z"/>
+    <path d="M16 3 27.300 22.500H4.700z"/>
+    <circle cx="16" cy="3" r="2.100" style="fill:var(--bg,#fff)"/>
+    <circle cx="27.300" cy="9.500" r="2.100" style="fill:var(--bg,#fff)"/>
+    <circle cx="27.300" cy="22.500" r="2.100" style="fill:var(--bg,#fff)"/>
+    <circle cx="16" cy="29" r="2.100" style="fill:var(--bg,#fff)"/>
+    <circle cx="4.700" cy="22.500" r="2.100" style="fill:var(--bg,#fff)"/>
+    <circle cx="4.700" cy="9.500" r="2.100" style="fill:var(--bg,#fff)"/>
+  </symbol>
+
+  <!-- DropWizard: a drop -->
+  <symbol id="dropwizard" viewBox="0 0 32 32">
+    <path d="M16 3.500S7 13.500 7 20a9 9 0 0 0 18 0c0-6.500-9-16.500-9-16.500z"/>
+    <path d="M11.500 20.500a4.500 4.500 0 0 0 4.500 4.500"/>
+  </symbol>
+
+  <!-- Spring Boot: a leaf with a power symbol -->
+  <symbol id="springboot" viewBox="0 0 32 32">
+    <path d="M5 27C5 13 13 5 27 5c0 14-8 22-22 22z"/>
+    <path d="M13 14a5 5 0 1 0 6 0M16 11.500V17"/>
+  </symbol>
+
+  <!-- JanusGraph: two faces, one graph -->
+  <symbol id="janusgraph" viewBox="0 0 32 32">
+    <circle cx="16" cy="16" r="12"/>
+    <path d="M16 4v24"/>
+    <path d="M9.500 12.500 12.500 16 9.500 19.500M22.500 12.500 19.500 16l3 3.500"/>
+    <circle cx="9.500" cy="12.500" r="1.400" style="fill:currentColor"/>
+    <circle cx="22.500" cy="12.500" r="1.400" style="fill:currentColor"/>
+  </symbol>
+
+  <!-- TigerGraph: stripes around a graph node -->
+  <symbol id="tigergraph" viewBox="0 0 32 32">
+    <circle cx="16" cy="16" r="12"/>
+    <path d="M7.500 9.500 12 12.500M6.500 16H11M7.500 22.500 12 19.500M24.500 9.500 20 12.500M25.500 16H21M24.500 22.500 20 19.500"/>
+    <circle cx="16" cy="16" r="2.200" style="fill:currentColor"/>
+  </symbol>
+
+  <!-- Arduino: the infinity loop with + and - -->
+  <symbol id="arduino" viewBox="0 0 32 32">
+    <circle cx="10.500" cy="16" r="6.500"/>
+    <circle cx="21.500" cy="16" r="6.500"/>
+    <path d="M7.500 16h6M10.500 13v6M18.500 16h6"/>
+  </symbol>
+
+
+
+</svg>
